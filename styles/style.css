@@ -1,0 +1,389 @@
+@media screen and (max-width: 360px){
+
+
+    /* common styles  */
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* banner responsive */
+    .banner-section{
+        width: 100%;
+    }
+    .container-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-text{
+        margin-top: 0px;
+    }
+    .banner-text h3{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    /* highlight section  */
+    .highlight{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+    }
+    .image{
+        width: 320px;
+        margin-top: 15%;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+
+    /* news section  */
+    .news-container{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .news-img{
+        width: 320px;
+    }
+   .news-img img{
+       width: 320px;
+   }
+
+   /* upcoming match  */
+   .upcoming-match{
+    width: 100%;
+    height: 200px;
+    }
+
+   .section-title h2{
+       font-size: 30px;
+   }
+
+   .match{
+       width: 50%
+   }
+   .time h4{
+       margin-top: 0px;
+       font-size: 10pt;
+   }
+
+   .team p{
+    font-size: 6pt;
+   }
+
+   /* logo botto  */
+   .bottom-logo{
+       width: 100%;
+   }
+   .logo img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+
+
+/* ---------------------------
+        common styles
+--------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 75%;
+    margin: 7% auto;
+}
+
+
+.button a{
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #E02C6D;
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.button a:hover{
+    padding: 17px 27px;
+    background-color: rgb(231, 227, 227);
+    color: #E02C6D;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #E02C6D;
+}
+
+
+/* ---------------------------
+        banner section
+--------------------------- */
+
+.banner-section{
+    width: 100%;
+    height: 677px;
+    background-color: #2D25A0;
+}
+
+.container-banner{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.slider{
+    margin-top: 100px;
+    align-items: center;
+}
+
+.slider img{
+    width: 100%;
+}
+.banner-text{
+    margin-top: 7%;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.banner-text h3{
+    margin-bottom: 0px;
+}
+
+/* ---------------------------
+        players section
+--------------------------- */
+.players{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    margin: 10px auto;
+    width: 320px;
+    height: 475px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(230, 230, 230);
+}
+
+.player img{
+    width: 300px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.plr-info{
+    width: 300px;
+    margin: auto;
+    font-size: .9em;
+}
+
+.plr-name h2{
+    margin-top: 0px;
+}
+
+/* highlight section  */
+
+.highlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+    margin-right: 60px;
+}
+
+.text h1{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.image img{
+    width: 100%;
+}
+
+/* ---------------------------
+        news section
+--------------------------- */
+
+.news-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.news{
+    margin: 20px auto;
+    position: relative;
+}
+.news img{
+    display: block;
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news a{
+    text-decoration: none;
+}
+
+.news-text{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    top: 0;
+    
+    
+}
+
+.news:hover .news-text{
+    display: block;
+    background-color: #0a082663;
+    color: white;
+    height: 244.375px;
+    width: 450px;
+}
+
+.news-btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-btn a{
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15pt;
+    transform: translate(50%);
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #E02C6D;
+    color: #E02C6D;
+    transition: all .3s ease-in;
+}
+.news-btn a:hover{
+    background-color: rgb(231, 227, 227);
+    color: white;
+    font-weight: 500;
+   background-color: #E02C6D;
+}
+
+
+/* ----------------------------------
+        upcoming match section
+---------------------------------- */
+
+.upcoming-match{
+    width: 100%;
+    height: 300px;
+    background-color: #090C17;
+}
+
+.section-title{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.matchs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match{
+    margin: 5px 25px;
+}
+
+.time{
+    font-size: 2em;
+    color: #E9B62A;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+}
+.time h4{
+    margin-top: 0px;
+}
+
+.team{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+}
+
+#match{
+    color: wheat;
+}
+
+
+/* ----------------------------------
+        logo section
+---------------------------------- */
+.logo{
+    margin: 20px auto 10px auto;
+}
+.logo img{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------------------------------
+        footer section
+---------------------------------- */
+
+.socia-icons{
+    text-align: center;
+    font-size: 2em;
+}
+
+.socia-icons a{
+    text-decoration: none;
+    color: rgb(200, 220, 243);
+    display: inline-block;
+    padding: 10px;
+}
+
+/* ----------------------------------
+        copyright section
+---------------------------------- */
+
+.copyright{
+    text-align: center;
+    font-size: 18px;
+}
